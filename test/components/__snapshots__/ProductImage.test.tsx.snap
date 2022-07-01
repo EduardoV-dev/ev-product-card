@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductImage /> Should render the component with the personalized image 1`] = `
+<div
+  className="productCard "
+>
+  <img
+    alt="Coffee Mug"
+    className="productImg "
+    src="https://via.placeholder.com/150"
+  />
+</div>
+`;
+
+exports[`<ProductImage /> Should render the component with the product image 1`] = `
+<div
+  className="productCard "
+>
+  <img
+    alt="Coffee Mug"
+    className="productImg "
+    src=""
+  />
+</div>
+`;

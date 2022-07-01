@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductTitle /> Should render correctly with the personalized title 1`] = `
+<div
+  className="productCard "
+>
+  <span
+    className="productDescription "
+  >
+    Custom Product
+  </span>
+</div>
+`;
+
+exports[`<ProductTitle /> Should render with the product's name 1`] = `
+<div
+  className="productCard "
+>
+  <span
+    className="productDescription "
+  >
+    Coffee Mug - Sin Imagen
+  </span>
+</div>
+`;
