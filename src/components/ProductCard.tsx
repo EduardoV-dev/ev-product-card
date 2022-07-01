@@ -13,7 +13,6 @@ export const ProductContext = createContext({} as IProductContextProps);
 const { Provider } = ProductContext;
 
 export interface IProps {
-  // children?: ReactElement | ReactElement[];
   children: (args: IProductCardHandlers) => JSX.Element;
   className?: string;
   initialValues?: IInitialValues;
